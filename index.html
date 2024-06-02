@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Anindhita Rahmadini - A showcase of my projects, skills, and contact information.">
+    <title>Portofolio Anin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92e747a579.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p>Anindhita Rahmadini</p>
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>My Portofolio</p>
+                <h1>Hi, everyone!<br>I'm Anindhita Rahmadini</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/grid.jpg" alt="About Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am undergraduate student of Information Technology Education at Universitas Negeri Surabaya. 
+                        I have a keen interest in Data Analysis and UI/UX Design, and I am also expanding my knowledge
+                         in programming through various projects in my coursework. Additionally, I am actively 
+                         involved in organizational activities. As a student, I am always seeking opportunities 
+                         to develop my skills in communication, problem solving and expand my knowledge.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Communication</span><br>Able to communicate effectively, work well in a team or individually, 
+                                and have a strong social conscience.</li>
+                            <li><span>Problem Solving</span><br>Ability to think critically and creatively in making smart decisions 
+                                and implementing efficient solutions.</li>
+                            <li><span>Adaptable</span><br>Able to adapt to new environments and demonstrate flexibility.</li>
+                            <li><span>Multitasking</span><br>Able to multitask in an organized and effective manner, plan well, and complete tasks efficiently.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>BENDERA VI (2019)</span><br>Public Relations Division</li>
+                            <li><span>HIMTI TEACH (Aug 2023)</span><br>Chief Committee</li>
+                            <li><span>Benchmarking (June 2023)</span><br>Coordinator of Public Relations Division</li>
+                            <li><span>X-PROJECT (June-Dec 2023)</span><br>Coordinator of Administration Division</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2022</span><br>SMA Negeri 1 Surabaya.</li>
+                            <li><span>2022-Present</span><br>Universitas Negeri Surabaya.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECT -->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="projects">
+                    <img src="images/Doctor.png" alt="Doctor App Design">
+                    <div class="layer">
+                        <h3>UI/UX Design Doctor App</h3>
+                        <p>The design is for User experience of using Doctor Consult</p>
+                        <a href="https://www.figma.com/file/UOdilH0bagmud4tXl40h1V/Draft-Design-IMK?type=design&node-id=0-1&mode=design&t=Ezx44NdSIWWtDwdl-0"><i class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <img src="images/Prayer.png" alt="Prayer App Design">
+                    <div class="layer">
+                        <h3>UI/UX Design Prayer App</h3>
+                        <p>The design is for User experience of using Prayer Mobile App</p>
+                        <a href="https://medium.com/@diniiturahma/ui-ux-design-prayer-app-58bb1f239caf"><i class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <img src="images/Futsal.jpg" alt="Futsal Web Design">
+                    <div class="layer">
+                        <h3>UI/UX Design Web Futsal</h3>
+                        <p>The design is for User experience of using Website FutsalBooking</p>
+                        <a href="https://medium.com/@diniiturahma/ui-ux-design-futsal-booking-120f8599745c"><i class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div id="more-project">
+                <div class="container">
+                    <div class="more-project-list">
+                        <div class="projects">
+                            <img src="images/poster sholat.png" alt="Prayer App Poster">
+                            <div class="layer">
+                                <h3>Mobile App</h3>
+                                <p>This is a Mobile App for Muslim Prayer</p>
+                                <a href="https://github.com/aninzrdn/panduan-shalat-apps"><i class="fa-solid fa-paperclip"></i></a>
+                            </div>
+                        </div>
+                        <div class="projects">
+                            <img src="images/poster futsal.png" alt="Futsal Booking Poster">
+                            <div class="layer">
+                                <h3>Website</h3>
+                                <p>This is a website for Futsal Booking Online</p>
+                                <a href="https://github.com/aninzrdn/Web-FutsalBooking"><i class="fa-solid fa-paperclip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>diniiturahma@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen"></i>0895352350927</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_anindhiitard?igsh=b3RiN2FnOWt4Y2R6"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anindhitard"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/aninzrdn"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:diniiturahma@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <a href="images/CV ATS ANINDHITA Inggris.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Anin. Made with <i class="fa-solid fa-heart"></i> by Anin</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzKf6l9U17seRQRPG0updwwJcwpACEwJxEaB04Fr56Ikld0rRLFfF_sNsQOvijpKk6Nqw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
